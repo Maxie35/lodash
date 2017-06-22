@@ -23,7 +23,8 @@
     "test:doc": "markdown-doctest doc/*.md",
     "test:fp": "node test/test-fp",
     "test:main": "node test/test",
-    "validate": "npm run style && npm run test"
+    "validate": "npm run style && npm run test",
+    "unittest": "mocha --require ./test/testHelper.js"
   },
   "devDependencies": {
     "async": "^2.1.4",
@@ -59,5 +60,10 @@
     "ignore": [
       "lodash"
     ]
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
   }
 }
