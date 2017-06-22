@@ -1,5 +1,5 @@
-var expect    = require("chai").expect;
-var assert    = require("chai").assert;
+const expect    = require("chai").expect;
+const assert    = require("chai").assert;
 
 import divide from '../divide.js';
 import add from '../add.js';
