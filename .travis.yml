@@ -1,0 +1,7 @@
+dist: trusty
+language: node_js
+sudo: required
+node_js:
+  - "7"
+script:
+  - npm run unittest
